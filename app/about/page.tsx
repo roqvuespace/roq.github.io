@@ -191,7 +191,7 @@ export default function AboutPage() {
       </section>
 
       {/* Leadership Team */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">Leadership Team</h2>
@@ -218,7 +218,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Company Timeline */}
       <section className="py-20 bg-card">
@@ -290,19 +290,19 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
+              <div className="text-4xl font-bold text-primary mb-2">1+</div>
               <div className="text-muted-foreground">Team Members</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">88</div>
+              <div className="text-4xl font-bold text-primary mb-2">0</div>
               <div className="text-muted-foreground">Successful Missions</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">$2.5B</div>
+              <div className="text-4xl font-bold text-primary mb-2">$0</div>
               <div className="text-muted-foreground">Total Funding Raised</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">15</div>
+              <div className="text-4xl font-bold text-primary mb-2">0</div>
               <div className="text-muted-foreground">Countries Served</div>
             </div>
           </div>
