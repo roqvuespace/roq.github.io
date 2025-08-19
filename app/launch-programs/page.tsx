@@ -15,7 +15,7 @@ const launchPrograms = [
     features: ["Dedicated launch vehicle", "Custom mission profile", "Priority scheduling", "Mission insurance"],
     price: "Starting at $62M",
     capacity: "Up to 22,800 kg to LEO",
-    missions: 28,
+    missions: 0,
   },
   {
     id: "rideshare",
@@ -25,7 +25,7 @@ const launchPrograms = [
     features: ["Shared launch costs", "Flexible payload sizes", "Multiple orbit options", "Quick integration"],
     price: "Starting at $1M",
     capacity: "Up to 500 kg per customer",
-    missions: 45,
+    missions: 0,
   },
   {
     id: "government",
@@ -40,7 +40,7 @@ const launchPrograms = [
     ],
     price: "Contact for pricing",
     capacity: "Mission-specific",
-    missions: 12,
+    missions: 0,
   },
   {
     id: "interplanetary",
@@ -50,71 +50,30 @@ const launchPrograms = [
     features: ["Extended mission support", "Deep space trajectories", "Advanced guidance systems", "Mission planning"],
     price: "Starting at $90M",
     capacity: "Up to 4,020 kg to Mars",
-    missions: 3,
+    missions: 0,
   },
 ]
 
 const upcomingLaunches = [
   {
-    mission: "Starlink Constellation 7-A",
-    date: "March 15, 2025",
-    time: "14:30 UTC",
-    vehicle: "Falcon Heavy",
-    payload: "60 Starlink Satellites",
-    customer: "Roqvue ISP",
+    mission: "N/A",
+    date: "N/A",
+    time: "N/A",
+    vehicle: "N/A",
+    payload: "N/A",
+    customer: "N/A",
     status: "confirmed",
-  },
-  {
-    mission: "CommSat-9 Deployment",
-    date: "March 28, 2025",
-    time: "09:15 UTC",
-    vehicle: "Falcon 9",
-    payload: "Commercial Communications Satellite",
-    customer: "GlobalComm Inc.",
-    status: "confirmed",
-  },
-  {
-    mission: "Mars Science Orbiter",
-    date: "April 12, 2025",
-    time: "11:45 UTC",
-    vehicle: "Falcon Heavy",
-    payload: "Mars Research Satellite",
-    customer: "NASA",
-    status: "scheduled",
-  },
-  {
-    mission: "Defense Constellation",
-    date: "April 25, 2025",
-    time: "22:00 UTC",
-    vehicle: "Falcon 9",
-    payload: "Classified",
-    customer: "U.S. Space Force",
-    status: "scheduled",
-  },
+  }
 ]
 
 const pastMissions = [
   {
-    mission: "Starlink Constellation 6-B",
-    date: "February 18, 2025",
-    vehicle: "Falcon 9",
+    mission: "N/A",
+    date: "N/A",
+    vehicle: "N/A",
     result: "Success",
-    payload: "60 Starlink Satellites",
-  },
-  {
-    mission: "EuroSat Commercial",
-    date: "February 5, 2025",
-    vehicle: "Falcon Heavy",
-    result: "Success",
-    payload: "European Communications Satellite",
-  },
-  {
-    mission: "Rideshare Mission RX-47",
-    date: "January 22, 2025",
-    vehicle: "Falcon 9",
-    result: "Success",
-    payload: "22 Small Satellites",
-  },
+    payload: "N/A",
+  }
 ]
 
 export default function LaunchProgramsPage() {
@@ -124,7 +83,7 @@ export default function LaunchProgramsPage() {
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-secondary/5"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Badge className="mb-6 bg-primary/10 text-primary border-primary/20">Launch Services</Badge>
+          <Badge className="mb-6 bg-primary/10 text-primary border-primary/20">Launch Services (Soon)</Badge>
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">Launch Programs</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
             From small satellites to interplanetary missions, our launch programs provide reliable, cost-effective

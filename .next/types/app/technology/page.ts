@@ -1,4 +1,4 @@
-// File: /home/allexander/Documents/comp/Roqvue/roqvue.site.space/app/technology/page.tsx
+// File: /home/allexander/Documents/comp/Roqvue/roq.github.io.site.main/app/technology/page.tsx
 import * as entry from '../../../../app/technology/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

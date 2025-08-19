@@ -39,35 +39,35 @@ const leadership = [
 
 const milestones = [
   {
-    year: "2020",
+    year: "2025",
     title: "Company Founded",
-    description: "Roqvue.space established with $50M Series A funding",
+    description: "Roqvue.space established with $?? Series A funding",
     icon: Rocket,
   },
-  {
-    year: "2021",
-    title: "First Test Flight",
-    description: "Successful suborbital test of Falcon-class prototype",
-    icon: Target,
-  },
-  {
-    year: "2022",
-    title: "Orbital Success",
-    description: "First successful orbital launch and satellite deployment",
-    icon: Globe,
-  },
-  {
-    year: "2023",
-    title: "Drone Ship Landing",
-    description: "First successful autonomous rocket recovery at sea",
-    icon: Award,
-  },
-  {
-    year: "2024",
-    title: "ISP Service Launch",
-    description: "Commercial satellite internet service goes live",
-    icon: Star,
-  },
+  // {
+  //   year: "2021",
+  //   title: "First Test Flight",
+  //   description: "Successful suborbital test of Falcon-class prototype",
+  //   icon: Target,
+  // },
+  // {
+  //   year: "2022",
+  //   title: "Orbital Success",
+  //   description: "First successful orbital launch and satellite deployment",
+  //   icon: Globe,
+  // },
+  // {
+  //   year: "2023",
+  //   title: "Drone Ship Landing",
+  //   description: "First successful autonomous rocket recovery at sea",
+  //   icon: Award,
+  // },
+  // {
+  //   year: "2024",
+  //   title: "ISP Service Launch",
+  //   description: "Commercial satellite internet service goes live",
+  //   icon: Star,
+  // },
 ]
 
 const values = [

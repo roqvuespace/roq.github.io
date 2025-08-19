@@ -138,23 +138,11 @@ const testimonials = [
 
 const offices = [
   {
-    city: "Hawthorne, CA",
-    address: "1 Rocket Road, Hawthorne, CA 90250",
+    city: "N/A",
+    address: "N/A",
     description: "Our headquarters and primary manufacturing facility",
-    employees: "300+",
-  },
-  {
-    city: "Austin, TX",
-    address: "500 Innovation Drive, Austin, TX 78701",
-    description: "Software development and mission control center",
-    employees: "150+",
-  },
-  {
-    city: "Seattle, WA",
-    address: "200 Space Way, Seattle, WA 98101",
-    description: "Satellite development and testing facility",
-    employees: "100+",
-  },
+    employees: "0+",
+  }
 ]
 
 export default function CareersPage() {

@@ -1,4 +1,10 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js",
-  "/technology/page": "app/technology/page.js"
+  "/technology/page": "app/technology/page.js",
+  "/launch-programs/page": "app/launch-programs/page.js",
+  "/about/page": "app/about/page.js",
+  "/careers/page": "app/careers/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/news/page": "app/news/page.js"
 }

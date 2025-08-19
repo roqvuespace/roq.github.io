@@ -23,12 +23,12 @@ import { Footer } from "@/components/footer"
 import Link from "next/link"
 
 const rocketSpecs = [
-  { name: "Height", value: "70 m", description: "230 ft" },
-  { name: "Diameter", value: "3.7 m", description: "12 ft" },
-  { name: "Mass", value: "549,054 kg", description: "1,207,920 lb" },
-  { name: "Payload to LEO", value: "22,800 kg", description: "50,265 lb" },
-  { name: "Payload to GTO", value: "8,300 kg", description: "18,300 lb" },
-  { name: "Payload to Mars", value: "4,020 kg", description: "8,860 lb" },
+  { name: "Height", value: "55 m", description: "" },
+  { name: "Diameter", value: "3.7 m", description: "" },
+  { name: "Mass", value: "220,000 kg", description: "" },
+  { name: "Payload to LEO", value: "4,000", description: "" },
+  // { name: "Payload to GTO", value: "8,300 kg", description: "18,300 lb" },
+  // { name: "Payload to Mars", value: "4,020 kg", description: "8,860 lb" },
 ]
 
 const droneShipSpecs = [
@@ -91,9 +91,11 @@ export default function TechnologyPage() {
                   <Rocket className="h-12 w-12 text-primary" />
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Falcon-Class Rockets</h2>
+                <div></div>
+                <h2 className="text-1xl md:text-4xl text-foreground mb-4">Raven</h2>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                   Our reusable heavy-lift launch vehicles represent the pinnacle of rocket engineering, designed for
-                  maximum reliability and cost efficiency.
+                  maximum reliability and cost efficiency. Introducing Raven.
                 </p>
               </div>
 
