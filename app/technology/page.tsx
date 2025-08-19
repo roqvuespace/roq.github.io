@@ -26,7 +26,7 @@ const rocketSpecs = [
   { name: "Height", value: "55 m", description: "" },
   { name: "Diameter", value: "3.7 m", description: "" },
   { name: "Mass", value: "220,000 kg", description: "" },
-  { name: "Payload to LEO", value: "4,000", description: "" },
+  { name: "Payload to LEO", value: "4,000 kg", description: "" },
   // { name: "Payload to GTO", value: "8,300 kg", description: "18,300 lb" },
   // { name: "Payload to Mars", value: "4,020 kg", description: "8,860 lb" },
 ]
