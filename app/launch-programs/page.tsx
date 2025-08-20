@@ -14,7 +14,7 @@ const launchPrograms = [
     description: "Dedicated launches for commercial satellites and payloads",
     features: ["Dedicated launch vehicle", "Custom mission profile", "Priority scheduling", "Mission insurance"],
     price: "Starting at $62M",
-    capacity: "Up to 22,800 kg to LEO",
+    capacity: "Up to 4,000 kg to LEO",
     missions: 0,
   },
   {
@@ -49,7 +49,7 @@ const launchPrograms = [
     description: "Deep space missions to Mars, Moon, and beyond",
     features: ["Extended mission support", "Deep space trajectories", "Advanced guidance systems", "Mission planning"],
     price: "Starting at $90M",
-    capacity: "Up to 4,020 kg to Mars",
+    capacity: "Up to ?? kg to Mars",
     missions: 0,
   },
 ]
