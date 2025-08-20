@@ -62,7 +62,7 @@ const upcomingLaunches = [
     vehicle: "N/A",
     payload: "N/A",
     customer: "N/A",
-    status: "confirmed",
+    status: "unconfirmed",
   }
 ]
 
